@@ -17,7 +17,9 @@ function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
-    const url = 'http://localhost:3000/categorias';
+    const url = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://gameflix-rct.herokuapp.com/categorias';
     fetch(url)
       .then(async (respostadoServidor) => {
         const resposta = await respostadoServidor.json();

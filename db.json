@@ -2,14 +2,14 @@
     "categorias": [
         {
             "id":1,
-            "nome": "Front End",
+            "titulo": "Front End",
             "descricao": "categoria muito loca",
             "cor": "#6bd1ff"
         },
         {
             "id":2,
-            "nome": "Back End",
-            "descricao": "categoria muito loca",
+            "titulo": "Back End",
+            "descricao": "categoria muito",
             "cor": "#6cd1ff"
         }
 
