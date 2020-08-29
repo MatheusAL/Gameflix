@@ -67,7 +67,7 @@ const Input = styled.input`
 `;
 
 function FormField({
-  label, type, name, value, onChange, suggestions
+  label, type, name, value, onChange, suggestions,
 }) {
   const fieldId = `id_${name}`;
   const isTypeTextarea = type === 'textarea';

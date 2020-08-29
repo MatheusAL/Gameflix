@@ -1,62 +1,16 @@
 {
   "categorias": [
     {
-      "id": 6,
-      "titulo": "DevSoutinho",
-      "cor": "#ff6a00",
-      "link_extra": {
-        "text": "Canal no YouTube",
-        "url": "https://youtube.com/c/DevSoutinho"
-      }
-    },
-    {
       "id": 5,
-      "titulo": "Games",
+      "titulo": "Lançamentos",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "",
+        "url": ""
       }
     },
     {
-      "id": 4,
-      "titulo": "Filmes",
-      "cor": "orange"
-    },
-    {
-      "id": 1,
-      "titulo": "Front End",
-      "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
-    },
-    {
-      "id": 2,
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      }
-    },
-    {
-      "id": 3,
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
-      }
-    },
-    {
-      "id": 7,
-      "titulo": "FPS",
-      "cor": "#C0C0C0"
-    },
-    {
-      "id": 8,
+      "id": 10,
       "descricao": "First Person Shooter game from RIOT",
       "titulo": "Valorant",
       "cor": "#c93535"
@@ -65,156 +19,33 @@
       "titulo": "League of Legends",
       "descricao": "Riot Games MOBA",
       "cor": "#b6b120",
-      "id": 9
+      "id": 11
+    },
+    {
+      "id": 12,
+      "descricao": "First Person Shooter from valve",
+      "titulo": "Counter-Strike Global Offensive",
+      "cor": "#C0C0C0"
+    },
+    {
+      "titulo": "GTA V",
+      "descricao": "Rockstar Game",
+      "cor": "#0a9709",
+      "id": 13
     }
   ],
   "videos": [
     {
-      "id": 50,
-      "categoriaId": 6,
-      "titulo": "SEO com React",
-      "description": "Será que é tão difícil fazer SEO com React?",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-    },
-    {
-      "id": 51,
-      "categoriaId": 6,
-      "titulo": "Como fazer um React e aprender a ideia do Virtual DOM na prática",
-      "description": "Já parou pra pensar como que o React renderiza as coisas na tela?",
-      "url": "https://www.youtube.com/watch?v=5MzOCxSWrrc"
-    },
-    {
-      "id": 1,
-      "categoriaId": 1,
-      "titulo": "SEO com React",
-      "description": "Será que é tão difícil fazer SEO com React?",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-    },
-    {
-      "id": 2,
-      "categoriaId": 1,
-      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
-    },
-    {
-      "id": 3,
-      "categoriaId": 1,
-      "titulo": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
-    },
-    {
-      "id": 4,
-      "categoriaId": 1,
-      "titulo": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-    },
-    {
-      "id": 5,
-      "categoriaId": 1,
-      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-    },
-    {
-      "id": 6,
-      "categoriaId": 1,
-      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-    },
-    {
-      "id": 7,
-      "categoriaId": 1,
-      "titulo": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-    },
-    {
-      "id": 8,
-      "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-    },
-    {
-      "id": 9,
-      "categoriaId": 2,
-      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-    },
-    {
-      "id": 10,
-      "categoriaId": 2,
-      "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-    },
-    {
-      "id": 11,
-      "categoriaId": 2,
-      "titulo": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-    },
-    {
-      "id": 12,
-      "categoriaId": 2,
-      "titulo": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-    },
-    {
-      "id": 13,
-      "categoriaId": 3,
-      "titulo": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-    },
-    {
-      "id": 14,
-      "categoriaId": 3,
-      "titulo": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-    },
-    {
-      "id": 15,
-      "categoriaId": 3,
-      "titulo": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-    },
-    {
-      "id": 16,
-      "categoriaId": 3,
-      "titulo": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-    },
-    {
-      "id": 17,
-      "categoriaId": 4,
-      "titulo": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-    },
-    {
-      "id": 18,
-      "categoriaId": 4,
-      "titulo": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-    },
-    {
-      "id": 19,
-      "categoriaId": 4,
-      "titulo": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-    },
-    {
-      "id": 20,
-      "categoriaId": 4,
-      "titulo": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-    },
-    {
       "id": 21,
       "categoriaId": 5,
-      "titulo": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+      "titulo": "Assassins Creed Valhalla",
+      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
     },
     {
       "id": 22,
       "categoriaId": 5,
-      "titulo": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+      "titulo": "Final Fantasy 7",
+      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
     },
     {
       "id": 23,
@@ -229,82 +60,178 @@
       "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
     },
     {
-      "titulo": "O que todo projeto deveria ter? #01",
-      "url": "https://www.youtube.com/watch?v=yMRSDdifGW8",
-      "categoriaId": 6,
-      "id": 52
-    },
-    {
-      "titulo": "Como fazer um jogo com JavaScript?",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 6,
-      "id": 53
-    },
-    {
-      "titulo": "Como fazer o efeito de desenhar com CSS?",
-      "url": "https://www.youtube.com/watch?v=4cEMgap9wpk",
-      "categoriaId": 6,
-      "id": 54
-    },
-    {
-      "titulo": "Usando Excel como CMS + React",
-      "url": "https://www.youtube.com/watch?v=5t2gq3xJZ9o",
-      "categoriaId": 6,
-      "id": 55
-    },
-    {
-      "titulo": "Quanto ganha um dev frontend?",
-      "url": "https://www.youtube.com/watch?v=TMwoc4HvSQw&",
-      "categoriaId": 1,
-      "id": 56
-    },
-    {
       "titulo": "CS:GO - BEST PRO MOMENTS! 2019 (Flickshots, Crazy Clutches, Inhuman Reactions, ACEs, Best Frags)",
       "url": "https://www.youtube.com/watch?v=swd2DtPEc1c",
-      "categoriaId": 7,
+      "categoriaId": 12,
       "id": 57
     },
     {
       "titulo": "EU SOU O REI DA SHOTGUN! | HASCLIPES",
       "url": "https://www.youtube.com/watch?v=t00JD1YqkTM",
-      "categoriaId": 8,
+      "categoriaId": 10,
       "id": 58
     },
     {
       "titulo": "Valorant BEST MOMENTS and FUNNY FAILS | Highlights #139",
       "url": "https://www.youtube.com/watch?v=tKqJzxFMDg8",
-      "categoriaId": 8,
+      "categoriaId": 10,
       "id": 59
     },
     {
       "titulo": "How IMMORTAL VALORANT Players See The Game...",
       "url": "https://www.youtube.com/watch?v=hPQ1uTxnOLc",
-      "categoriaId": 8,
+      "categoriaId": 10,
       "id": 60
-    },
-    {
-      "titulo": "VALORANT : 10 MINUTES OF 200 IQ PLAYS",
-      "url": "https://www.youtube.com/watch?v=Yjey_Ex02mI",
-      "categoriaId": 8,
-      "id": 61
-    },
-    {
-      "titulo": "VALORANT : MOST UPVOTED REDDIT MOMENTS | BEST MOMENTS | FUNNY FAILS",
-      "url": "https://www.youtube.com/watch?v=kRjE5Dyd8Gc",
-      "categoriaId": 8,
-      "id": 62
     },
     {
       "titulo": "10 INSANE Tips Almost NOBODY USES In Valorant (One ways, Strategies, Lineups & MORE)",
       "url": "https://www.youtube.com/watch?v=cGWNHDr-stY",
-      "categoriaId": 8,
+      "categoriaId": 10,
       "id": 63
     },
     {
       "titulo": "QUE JOGO TENSO NO CAMPEONATO DE VALORANT!!",
       "url": "https://www.youtube.com/watch?v=lv6R9W7qCVI",
-      "categoriaId": 8,
+      "categoriaId": 10,
       "id": 64
+    },
+    {
+      "titulo": "Awaken (ft. Valerie Broussard) | Season 2019 Cinematic - League of Legends",
+      "url": "https://www.youtube.com/watch?v=zF5Ddo9JdpY",
+      "categoriaId": 11,
+      "id": 65
+    },
+    {
+      "titulo": "Warriors | Animação da Temporada 2020 - League of Legends (com 2WEI e Edda Hayes)",
+      "url": "https://www.youtube.com/watch?v=aR-KAldshAE",
+      "categoriaId": 11,
+      "id": 66
+    },
+    {
+      "titulo": "Phoenix (com Cailin Russo e Chrissy Costanza) | Mundial 2019 - League of Legends",
+      "url": "https://www.youtube.com/watch?v=i1IKnWDecwA",
+      "categoriaId": 11,
+      "id": 67
+    },
+    {
+      "titulo": "A New Dawn | Cinematic - League of Legends",
+      "url": "https://www.youtube.com/watch?v=vzHrjOMfHPY",
+      "categoriaId": 11,
+      "id": 68
+    },
+    {
+      "titulo": "Xayah and Rakan: Wild Magic | New Champion Teaser - League of Legends",
+      "url": "https://www.youtube.com/watch?v=O4PDzBnBMU4",
+      "categoriaId": 11,
+      "id": 69
+    },
+    {
+      "titulo": "na: O Abraço das Sombras | Trailer de Animação de Campeão - League of Legends",
+      "url": "https://www.youtube.com/watch?v=ZjvDFvzfxsQ",
+      "categoriaId": 11,
+      "id": 70
+    },
+    {
+      "titulo": "Jinxed | Jinx Music Video - League of Legends",
+      "url": "https://www.youtube.com/watch?v=0nlJuwO0GDs",
+      "categoriaId": 11,
+      "id": 71
+    },
+    {
+      "titulo": "The Light Within | Elementalist Lux - League of Legends",
+      "url": "https://www.youtube.com/watch?v=fjrfYZsZLJA",
+      "categoriaId": 11,
+      "id": 72
+    },
+    {
+      "titulo": "Boas-Vindas a Bordo | Trailer de animação Odisseia - League of Legends",
+      "url": "https://www.youtube.com/watch?v=HevLl54L-Dg",
+      "categoriaId": 11,
+      "id": 73
+    },
+    {
+      "titulo": "Ryze: Chamado do Poder | Curta-Metragem - League of Legends",
+      "url": "https://www.youtube.com/watch?v=vyNBf-SvFVE",
+      "categoriaId": 11,
+      "id": 74
+    },
+    {
+      "titulo": "BEST OF 2018: GTA 5 Fails & Epic Moments Compilation",
+      "url": "https://www.youtube.com/watch?v=7rEuY4x4zU4",
+      "categoriaId": 13,
+      "id": 75
+    },
+    {
+      "titulo": "GTA V - Stunt Montage",
+      "url": "https://www.youtube.com/watch?v=MXEAa7zY11g",
+      "categoriaId": 13,
+      "id": 76
+    },
+    {
+      "titulo": "GTA 5 WINS: BEST MOMENTS (Best GTA 5 Epic Moments Compilation)",
+      "url": "https://www.youtube.com/watch?v=B3ZgqXCIZKE",
+      "categoriaId": 13,
+      "id": 77
+    },
+    {
+      "titulo": "GTA 5 FAILS: BEST MOMENTS EVER! (GTA 5 Funny Moments Compilation)",
+      "url": "https://www.youtube.com/watch?v=o01GnXUzeP8",
+      "categoriaId": 13,
+      "id": 78
+    },
+    {
+      "titulo": "MEGA RAMP - Funny Vehicles Mod - GTA 5 Gameplay Video",
+      "url": "https://www.youtube.com/watch?v=o3sFKJsotKs",
+      "categoriaId": 13,
+      "id": 79
+    },
+    {
+      "titulo": "VALORANT FUNNIEST FAILS & MOMENTS EVER!",
+      "url": "https://www.youtube.com/watch?v=7i0yWThwruk",
+      "categoriaId": 10,
+      "id": 80
+    },
+    {
+      "titulo": "These 200 IQ VALORANT Tricks Never Fail...",
+      "url": "https://www.youtube.com/watch?v=bqVrNc7-EgI",
+      "categoriaId": 10,
+      "id": 81
+    },
+    {
+      "titulo": "MOST LEGENDARY PRO MIRAGE CS:GO PLAYS",
+      "url": "https://www.youtube.com/watch?v=jCJ1dI6g7dU",
+      "categoriaId": 12,
+      "id": 82
+    },
+    {
+      "titulo": "MOST LEGENDARY PRO INFERNO CS:GO PLAYS",
+      "url": "https://www.youtube.com/watch?v=KhI9qxLbCJo",
+      "categoriaId": 12,
+      "id": 83
+    },
+    {
+      "titulo": "IEM KATOWICE 2020 - BEST CS:GO PLAYS (Fragmovie)",
+      "url": "https://www.youtube.com/watch?v=1b7gKAr0kik",
+      "categoriaId": 12,
+      "id": 84
+    },
+    {
+      "titulo": "WHEN CS:GO PROS DO COOL TRICKS",
+      "url": "https://www.youtube.com/watch?v=EMGlKFGcuWU",
+      "categoriaId": 12,
+      "id": 85
+    },
+    {
+      "titulo": "SMARTEST PRO CS:GO PLAYS 2020",
+      "url": "https://www.youtube.com/watch?v=gdPtCGRjh-U",
+      "categoriaId": 12,
+      "id": 86
+    },
+    {
+      "titulo": "GTA 5 MOVIE 60FPS All Cutscenes Grand Theft Auto V - Full Story",
+      "url": "https://www.youtube.com/watch?v=JF8t4ygOZwo",
+      "categoriaId": 13,
+      "id": 87
     }
   ]
 }

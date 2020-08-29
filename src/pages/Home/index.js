@@ -7,11 +7,24 @@ import BannerMain from '../../components/BannerMain';
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
+  const [titleMain, setVideoTitle] = useState('');
+  const [urlMain, setUrl] = useState('');
+  const [vDescription, setDescription] = useState('');
+
+  function setVideoData(videoTitle, url) {
+    setVideoTitle(videoTitle);
+    setUrl(url);
+    //setDescription(videoDescription);
+    console.log("eu to chamando");
+  }
 
   useEffect(() => {
     categoriasRepository.getAllWithVideos()
       .then((categoriasComVideos) => {
         setDadosIniciais(categoriasComVideos);
+        setVideoTitle(categoriasComVideos[0].videos[0].titulo);
+        setUrl(categoriasComVideos[0].videos[0].url);
+        setDescription(categoriasComVideos[0].videos[0].description);
       })
       .catch((err) => {
         console.log(err.message);
@@ -27,47 +40,26 @@ function Home() {
           return (
             <div key={categoria.id}>
               <BannerMain
-                videoTitle={dadosIniciais[0].videos[0].titulo}
-                url={dadosIniciais[0].videos[0].url}
-                videoDescription={dadosIniciais[0].videos[0].description}
+                videoTitle={titleMain}
+                url={urlMain}
+                videoDescription={vDescription}
               />
               <Carousel
                 ignoreFirstVideo
                 category={dadosIniciais[0]}
+                attBanner={(a, b) => setVideoData(a, b)}
               />
             </div>
           );
         }
-
         return (
           <Carousel
             key={categoria.id}
             category={categoria}
+            attBanner={(a, b) => setVideoData(a, b)}
           />
         );
       })}
-
-      {/* <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription="O que"
-      />
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
-      <Carousel
-        category={dadosIniciais.categorias[1]}
-      />
-      <Carousel
-        category={dadosIniciais.categorias[2]}
-      />
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      /> */}
 
     </PageDefault>
   );

@@ -1,15 +1,20 @@
+/* eslint-disable react/forbid-prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
 import Slider, { SliderItem } from './components/Slider';
 
 function Carousel({
+  // eslint-disable-next-line react/prop-types
   ignoreFirstVideo,
   category,
+  attBanner,
 }) {
   const categoryTitle = category.titulo;
   const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
+  // eslint-disable-next-line prefer-destructuring
   const videos = category.videos;
   return (
     <VideoCardGroupContainer>
@@ -18,11 +23,11 @@ function Carousel({
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
             {categoryTitle}
           </Title>
-          {categoryExtraLink && 
+          {categoryExtraLink && (
             <ExtraLink href={categoryExtraLink.url} target="_blank">
-              {categoryExtraLink.text}  
+              {categoryExtraLink.text}
             </ExtraLink>
-          }
+          )}
         </>
       )}
       <Slider>
@@ -37,6 +42,7 @@ function Carousel({
                 videoTitle={video.titulo}
                 videoURL={video.url}
                 categoryColor={categoryColor}
+                attBanner={attBanner}
               />
             </SliderItem>
           );
@@ -46,4 +52,11 @@ function Carousel({
   );
 }
 
+Carousel.defaultProps = {
+  onClick: () => {},
+};
+Carousel.propTypes = {
+  category: PropTypes.object.isRequired,
+  onClick: PropTypes.func,
+};
 export default Carousel;

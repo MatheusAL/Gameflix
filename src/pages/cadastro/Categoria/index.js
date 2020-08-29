@@ -33,7 +33,7 @@ function CadastroCategoria() {
   return (
     <PageDefault>
       <h1>
-        Cadastro de Categoria: 
+        Cadastro de Categoria:
         {values.nome}
       </h1>
 
@@ -47,7 +47,7 @@ function CadastroCategoria() {
           .then(() => {
             history.push('/');
           });
- 
+
         setCategorias([
           ...categorias,
           values,
@@ -59,8 +59,8 @@ function CadastroCategoria() {
 
         <FormField
           label="Nome da Categoria"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
