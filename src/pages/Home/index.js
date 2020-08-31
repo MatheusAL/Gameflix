@@ -14,8 +14,10 @@ function Home() {
   function setVideoData(videoTitle, url) {
     setVideoTitle(videoTitle);
     setUrl(url);
-    //setDescription(videoDescription);
-    console.log("eu to chamando");
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   }
 
   useEffect(() => {
