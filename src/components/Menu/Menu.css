@@ -24,7 +24,7 @@
     padding-left: 5%;
     padding-right: 5%;
 
-    background: var(--black);
+    /*background: var(--black);*/
     border-bottom: 2px solid var(--primary);
 }
 
@@ -44,13 +44,14 @@ body {
 }
 
 .ButtonLink {
-    color: var(--white);
-    border: 1px solid var(--white);
+    /*color: var(--white);
+    border: 1px solid var(--white);*/
     box-sizing: border-box;
     cursor: pointer;
     padding: 16px 24px;
     font-style: normal;
     font-weight: bold;
+    margin-right: 15px;
     font-size: 16px;
     outline: none;
     border-radius: 5px;

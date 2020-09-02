@@ -10,7 +10,7 @@ function Home() {
   const [titleMain, setVideoTitle] = useState('');
   const [urlMain, setUrl] = useState('');
   const [vDescription, setDescription] = useState('');
-
+  
   function setVideoData(videoTitle, url) {
     setVideoTitle(videoTitle);
     setUrl(url);
