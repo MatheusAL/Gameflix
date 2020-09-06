@@ -6,7 +6,8 @@ Aplicação criada para visualização de vídeos
 
 ## Instalação:
 
-`npm install` 
+    $ git clone https://github.com/MatheusAL/GAMEFLIX.git
+    $ npm install 
 
 ## Rodando o projeto:
 
